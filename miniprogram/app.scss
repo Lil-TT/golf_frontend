@@ -1,0 +1,67 @@
+/**app.wxss**/
+.boby {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.img_bg {
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  -moz-background-size: 100% auto;
+}
+
+.line_view {
+  height: 1rpx;
+  margin: 40rpx 0 25rpx;
+  background-color: #f8f8f8;
+}
+
+.flex_align_between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex_align_around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.primary_text {
+  color: #150C08;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  font-weight: 400;
+}
+
+.primary_text_bold {
+  color: #150C08;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  font-weight: bold;
+}
+
+.secondary_text {
+  color: #150C08;
+  font-size: 40rpx;
+  line-height: 0;
+  font-weight: 400;
+}
+
+.secondary_text_blod {
+  color: #150C08;
+  font-size: 40rpx;
+  line-height: 0rpx;
+  font-weight: bold;
+}
+
+.placeholder_text {
+  color: #949494;
+  font-size: 24rpx;
+  font-weight: 400;
+  line-height: 0;
+}

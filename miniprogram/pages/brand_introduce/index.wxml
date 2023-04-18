@@ -1,0 +1,6 @@
+<!--pages/brand_introduce/index.wxml-->
+<scroll-view style="height: {{safeArea}}px;" scroll-y>
+  <view>
+    
+  </view>
+</scroll-view>

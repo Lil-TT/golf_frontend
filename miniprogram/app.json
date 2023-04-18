@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/login_role/index",
+    "pages/login_worker/index",
+    "pages/login_manager/index",
+    "pages/display_stands/index",
+    "pages/stands_detail/index",
+    "pages/commodity_mod/index",
+    "pages/commodity_select/index",
+    "pages/nearby_shop/index",
+    "pages/nearby_shop_detail/index",
+    "pages/moments/index",
+    "pages/moments_add/index",
+    "pages/my/index",
+    "pages/my_recently/index",
+    "pages/address/index",
+    "pages/address_mod/index",
+    "pages/commodity_add/index",
+    "pages/brand_introduce/index",
+    "pages/brand_introduce_detail/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [{
+      "pagePath": "pages/display_stands/index",
+      "text": "小店"
+    }, {
+      "pagePath": "pages/nearby_shop/index",
+      "text": "附近"
+    }, {
+      "pagePath": "pages/moments/index",
+      "text": "瞬间"
+    }, {
+      "pagePath": "pages/my/index",
+      "text": "个人"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

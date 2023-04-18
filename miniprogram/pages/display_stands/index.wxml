@@ -1,0 +1,10 @@
+<!--pages/display_stands/index.wxml-->
+<view class="brand_introduce" bindtap="navToBrand">
+  <view class="primary_brand_text">品牌介绍</view>
+  <view class="secondary_brand_text">这将帮助你快速上手</view>
+  <image src="https://chow-association-album.oss-cn-shenzhen.aliyuncs.com/taylormade_pic.png" mode="aspectFit" class="brand_intro_image"/>
+</view>
+
+<t-empty icon="info-circle-filled" style="margin-top: 100rpx;" description="你的商品架是空的，请添加以展示">
+  <t-button slot="action" theme="primary" size="large">添加商品</t-button>
+</t-empty>

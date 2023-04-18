@@ -1,0 +1,4 @@
+<!--pages/login_role/index.wxml-->
+<text>pages/login_role/index.wxml</text>
+
+<t-button theme="primary" size="large" bindtap="handle_navTab">跳转到tabbar</t-button>
